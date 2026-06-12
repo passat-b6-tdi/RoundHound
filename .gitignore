@@ -1,0 +1,24 @@
+# Compiler files
+cache/
+out/
+artifacts/
+lib/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/*/10143/
+/broadcast/**/dry-run/
+
+# Coverage reports
+coverage/
+
+# Dotenv file
+.env
+
+# Python detector venv / build artifacts
+.venv/
+__pycache__/
+detector/*.egg-info/
+*.orig
+*.bak
